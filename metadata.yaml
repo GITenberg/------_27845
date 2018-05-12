@@ -1,0 +1,39 @@
+_repo: '------_27845'
+_version: 0.1.0
+alternative_title: Cyclops
+contributor:
+  translator:
+    agent_name: Tsokopoulos, George B.
+    alias: Τσοκόπουλος, Γεώργιος Β.
+    birthdate: 1871
+    deathdate: 1923
+    gutenberg_agent_id: '32788'
+    url: http://www.gutenberg.org/2009/agents/32788
+covers:
+- cover_type: archival
+  image_path: 27845-h/images/cover.jpg
+creator:
+  author:
+    agent_name: Euripides
+    alias: Ευριπίδης
+    deathdate: -406
+    gutenberg_agent_id: '1680'
+    url: http://www.gutenberg.org/2009/agents/1680
+    wikipedia:
+    - http://el.wikipedia.org/wiki/%CE%95%CF%85%CF%81%CE%B9%CF%80%CE%AF%CE%B4%CE%B7%CF%82
+    - http://en.wikipedia.org/wiki/Euripides
+description: ''
+gutenberg_issued: '2009-01-20'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27845'
+language: el
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Greek drama (Satyr play)'
+- !lcsh 'Cyclopes (Greek mythology) -- Drama'
+- !lcc 'PA'
+title: Κύκλωψ
+url: http://www.gutenberg.org/ebooks/27845

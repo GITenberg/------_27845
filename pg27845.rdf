@@ -1,225 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/27845">
-    <dcterms:title>Κύκλωψ</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106384</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N207f82915c0e4daab3655c810b724752">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:40.344518</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/27845/pg27845.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24015</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:44.859005</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23997</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:09.214543</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne7a1ec1d21324e2fa7b22be1b43d6593">
+          <rdf:Description rdf:nodeID="Nd9ca53b58080433383de4ad9365e4eab">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nc36d16c4415d41b79b54480269c5ce12">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109225</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:44.732006</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106526</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:08.128549</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf5cd227f47164e4ebfbe1c14b79aa30f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+          <rdf:Description rdf:nodeID="N8645cee360a34faea1f133a44a144fd0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:alternative>Cyclops</dcterms:alternative>
+    <dcterms:title>Κύκλωψ</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.kindle.images">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N70791cf1690f42dc8e9befd5f806a2aa">
+          <rdf:Description rdf:nodeID="N2caa47795a56422d82c429a460f5a48e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327929</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:08.617562</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0505228b380046ab989167c3219cc833">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:21:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29243</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5803432ca04040c4a2b39123a9a31427">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N4eee6ac2dd314f9093bc63e7260a3c19">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:21:18</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98446</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</pgterms:downloads>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-20</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106368</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:40.146714</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106525</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:08.021585</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nea9a4a9cf76f4fd6b3771e62717f1923">
+          <rdf:Description rdf:nodeID="N0f53dc05e71149ecb1001bebb92dc09c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/32788">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
-        <pgterms:name>Tsokopoulos, George B.</pgterms:name>
-        <pgterms:alias>Τσοκόπουλος, Γεώργιος Β.</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:trl>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</pgterms:downloads>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nfdc312837d784336bdb77a71d21e6be6">
+      <rdf:Description rdf:nodeID="Nbaf11e77a8a443f7950919558073045a">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
       </rdf:Description>
     </dcterms:language>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/1680">
-        <pgterms:alias>Ευριπίδης</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-406</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%95%CF%85%CF%81%CE%B9%CF%80%CE%AF%CE%B4%CE%B7%CF%82"/>
-        <pgterms:name>Euripides</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Euripides"/>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/32788">
+        <pgterms:name>Tsokopoulos, George B.</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
+        <pgterms:alias>Τσοκόπουλος, Γεώργιος Β.</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
       </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N37e754f637364033896386f14a376ba9">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Cyclopes (Greek mythology) -- Drama</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nbdfbcfc773b34cec800e964e9bb7e2cb">
-        <rdf:value>Greek drama (Satyr play)</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
+    </marcrel:trl>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-0.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:21:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne43a487f00464360b6a2f4b9c3504942">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N08fd1dea77e849a1aefd6323fa89b4ef">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:09.288539</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29243</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/27845/27845-h/images/cover.jpg</pgterms:marc901>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N61c8336e5adc46588b1a0e127994b112">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PA</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N30a1f816164040b3aad8389cb02108df">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-0.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:20:36</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98759</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13214</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3c075da9941f41f8921103d10b48e165">
+          <rdf:Description rdf:nodeID="Nb8f6cb604a86499f918922aeddaba656">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">331901</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9746ff0631204038a5527d6b3f157c60">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:41.631683</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.kindle.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">331940</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:42.874131</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncd9eaafe85434ccfb4d55df72953fe6f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-h/27845-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:20:54</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158560</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc5e2993b1477499bbbb9d4faa0dac144">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Na87388de6c9347b3ac14f3e1a31f1916">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158560</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N1de1d08e32614c539da8bf7f96360285">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Cyclopes (Greek mythology) -- Drama</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:alternative>Cyclops</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0e625f3ecdb34840a46e8652e5261a54">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:21:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98446</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N76796283795848978f4c559dababf418">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N50cec81a2022484d9d92bc8143332e98">
+        <rdf:value>Greek drama (Satyr play)</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27845/27845-0.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T19:20:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N14d2c319dfbd469882032fa84b656f4b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98759</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nad2fda23f44746069e6876eaaafc6f4c">
+        <rdf:value>PA</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/27845/pg27845.cover.small.jpg">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:09.192557</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3230</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3232</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1c289ada369d49379f2b49cab005bd1b">
+          <rdf:Description rdf:nodeID="N8b13cd6a70b8478080184422d435c4b3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-14T18:25:44.788002</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27845.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327918</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3f5b55adcdf04f04bae02de857181711">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27845"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T02:02:09.108542</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/27845/27845-h/images/cover.jpg</pgterms:marc901>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-20</dcterms:issued>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/1680">
+        <pgterms:alias>Ευριπίδης</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-406</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Euripides"/>
+        <pgterms:name>Euripides</pgterms:name>
+        <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%95%CF%85%CF%81%CE%B9%CF%80%CE%AF%CE%B4%CE%B7%CF%82"/>
+      </pgterms:agent>
+    </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Euripides">
     <dcterms:description>en.wikipedia</dcterms:description>
